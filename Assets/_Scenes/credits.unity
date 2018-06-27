@@ -4772,7 +4772,6 @@ GameObject:
   - component: {fileID: 971275966}
   - component: {fileID: 971275965}
   - component: {fileID: 971275964}
-  - component: {fileID: 971275963}
   - component: {fileID: 971275962}
   m_Layer: 0
   m_Name: backToMenu
@@ -4808,17 +4807,6 @@ MonoBehaviour:
   on: {fileID: 2100000, guid: 29fe1b7d0cbb2aa43819d41e959caf92, type: 2}
   off: {fileID: 2100000, guid: 5ee81dd4a1993d845b8429eb29e116a6, type: 2}
   sceneName: menu
---- !u!114 &971275963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 971275960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c08b97239073d2b4b86078b0169c2352, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &971275964
 BoxCollider:
   m_ObjectHideFlags: 0
