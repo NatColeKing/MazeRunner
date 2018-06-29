@@ -12,7 +12,8 @@ public class playerManager : MonoBehaviour {
 	private int alpha;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		lightSource.GetComponent<Light>();
 		lightsOut.SetActive(false);
 		back.SetActive(true);
@@ -20,26 +21,32 @@ public class playerManager : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update()
-    {
-        var x = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
-        var z = Input.GetAxis("Vertical") * Time.deltaTime * 3.0f;
-        fire_ps.transform.Rotate(0, x, 0);
-        fire_ps.transform.Translate(0, 0, z);
+  {
+    var x = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
+    var z = Input.GetAxis("Vertical") * Time.deltaTime * 3.0f;
+    fire_ps.transform.Rotate(0, x, 0);
+    fire_ps.transform.Translate(0, 0, z);
 
-				lightSource.intensity -= 0.002f;
+		lightSource.intensity -= 0.0023f;
 
-				if(Time.timeSinceLevelLoad > levelTime - 2) {
-					fire_ps.Stop();
-					if(Time.timeSinceLevelLoad > levelTime)
-					{
-						lightsOut.SetActive(true);
-						back.SetActive(false);
-					}
-					if(Time.timeSinceLevelLoad > levelTime + 3)
-						SceneManager.LoadScene("loseScreen");
-				}
+		if(Time.timeSinceLevelLoad > levelTime - 2)
+		{
+			fire_ps.Stop();
+			if(Time.timeSinceLevelLoad > levelTime)
+			{
+				lightsOut.SetActive(true);
+				back.SetActive(false);
+			}
+			if(Time.timeSinceLevelLoad > levelTime + 3)
+				SceneManager.LoadScene("loseScreen");
+		}
+  }
 
-				// alpha --;
-				// fire.main.startColor = new Color(255, 185, 0, alpha);
-    }
+	void OnCollisionEnter(Collision collision)
+	{
+		if(collision.collider.name == "win_collider")
+		{
+			SceneManager.LoadScene("winScreen");
+		}
+	}
 }
