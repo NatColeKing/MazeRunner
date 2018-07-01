@@ -213,7 +213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   on: {fileID: 2100000, guid: 8bbccb88d40844b45bf4ec582bdf039f, type: 2}
   off: {fileID: 2100000, guid: 35509d2804523554ba213b1bde3f2f67, type: 2}
-  sceneName: lvl_01
+  sceneName: levelSelect
 --- !u!1 &562938005
 GameObject:
   m_ObjectHideFlags: 0
