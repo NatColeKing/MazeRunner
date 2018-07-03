@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class playerManager : MonoBehaviour {
+	public Vector3 teleportPosition;
 	public GameObject lightsOut;
 	public ParticleSystem fire_ps;
 	public Light lightSource;
@@ -44,6 +45,20 @@ public class playerManager : MonoBehaviour {
 		if(collision.collider.name == "win_collider")
 		{
 			SceneManager.LoadScene("winScreen");
+		}
+		if(collision.collider.name == "teleport_collider")
+		{
+			transform.position = teleportPosition;
+		}
+		if(collision.collider.name == "water_collider")
+		{
+			lightSource.intensity -= 0.7f;
+			flashLight.intensity -= 0.1f;
+		}
+		if(collision.collider.name == "health_collider")
+		{
+			lightSource.intensity += 0.7f;
+			flashLight.intensity += 0.1f;
 		}
 	}
 }
