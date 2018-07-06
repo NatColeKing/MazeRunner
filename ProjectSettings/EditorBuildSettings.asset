@@ -18,6 +18,27 @@ EditorBuildSettings:
     path: Assets/_Scenes/lvl_03.unity
     guid: eb636cee5dcd38c43ad84b0cf10eeaf7
   - enabled: 1
+    path: Assets/_Scenes/lvl_04.unity
+    guid: 692451fd2f4155c4c897b4dcc31dea8e
+  - enabled: 1
+    path: Assets/_Scenes/lvl_05.unity
+    guid: 2deba8f54e6bdf243877e658fe9e2da0
+  - enabled: 1
+    path: Assets/_Scenes/lvl_06.unity
+    guid: 72ba0b279ae0c994b8e5ab23d35386bd
+  - enabled: 1
+    path: Assets/_Scenes/lvl_07.unity
+    guid: 229bc10679a0a9645af7bd75cb30c16b
+  - enabled: 1
+    path: Assets/_Scenes/lvl_08.unity
+    guid: 3664d8e5f213b344aa80055faff5fc7c
+  - enabled: 1
+    path: Assets/_Scenes/lvl_09.unity
+    guid: 47fff0404a8da554589e7aaa66dc1a36
+  - enabled: 1
+    path: Assets/_Scenes/lvl_10.unity
+    guid: 74285207388a26c4c8d12d5ec2848b56
+  - enabled: 1
     path: Assets/_Scenes/loseScreen.unity
     guid: 80f55911328d12d42919e55e0a61bfbb
   - enabled: 1
