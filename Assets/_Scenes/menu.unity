@@ -5129,7 +5129,7 @@ ParticleSystemRenderer:
   m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 0
   m_VertexStreams: 0001030405
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
@@ -5383,8 +5383,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 2.3
-      minScalar: 1.8
+      scalar: 2
+      minScalar: 1.6
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -9637,7 +9637,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1009206771}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.07, y: 3.65, z: -1.92}
+  m_LocalPosition: {x: -5.58, y: 2.81, z: -1.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -19166,8 +19166,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1969579603}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.03, y: 4.17, z: -1.67}
-  m_LocalScale: {x: 14.902759, y: 4.0484376, z: 0.00017216404}
+  m_LocalPosition: {x: 0.03, y: 3.1, z: -1.67}
+  m_LocalScale: {x: 19.535547, y: 3.5053718, z: 0.000086585795}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5

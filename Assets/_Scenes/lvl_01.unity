@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.037872285, g: 0.037872285, b: 0.037872285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1070,7 +1070,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 9c4b91daf1eb94e4594bee0d1f82245f, type: 2}
+  - {fileID: 2100000, guid: a604115716f55624c9d15fb416b298c2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6760,6 +6760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3feeea14f9bde6648a9f3a5b3a4378e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  teleportPosition: {x: 0, y: 0, z: 0}
   lightsOut: {fileID: 869856753}
   fire_ps: {fileID: 1341198172}
   lightSource: {fileID: 1197821633}
